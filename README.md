@@ -1,4 +1,4 @@
-# IEC-WECC-GenericModels-Comparison
+# Repository content
 This github repository contains the models and use cases utilized for the comparison of WT Type 4 generic models (WECC and IEC Ed. 2020 models).
 They correspond to the work described in the following paper "Comparing IEC and WECC Generic Dynamic Models for Type 4 Wind Turbines", M. Franke, A. Guironnet and C. Cardozo, published in the proceeding of PSCC 2024 and in the associated extended report.
 
