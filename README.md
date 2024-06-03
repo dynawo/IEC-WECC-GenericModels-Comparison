@@ -4,7 +4,7 @@ They correspond to the work described in the following paper "Comparing IEC and 
 
 ## Test cases description
 
-The repository now contains the following test cases enabling to show the equivalences between both models and to highlight their structural differences:
+The repository currently contains the following test cases enabling to show the equivalences between both models and to highlight their structural differences:
 
 ### Equivalent behaviors
 
