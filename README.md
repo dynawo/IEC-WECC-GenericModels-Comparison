@@ -28,5 +28,20 @@ The repository currently contains the following test cases enabling to show the 
 
 ## Getting started
 
-The test cases are based upon the V1.5.0 Modelica library of Dynawo, that is available on the Dynawo website, and they have been run using the version 1.18 of OpenModelica.
-In order to be able to use the test cases, please then do
+The test cases are based upon the V1.5.0 Modelica library of Dynawo, that is available on the Dynawo website, and they have been run using the version 1.18 of [OpenModelica](https://openmodelica.org/).
+
+In order to be able to use the test cases, please then start by downloading the OpenModelica software (V1.18 available [here](https://build.openmodelica.org/omc/builds/windows/releases/1.18/final/64bit/)) and the Dynawo Modelica library V1.5.0 release (available [here](https://github.com/dynawo/dynawo/releases/download/v1.5.0/Dynawo_Modelica_Library_v1.5.0.zip)). Then just clone this github repository to retrieve the Modelica files to redo the test or to look to the models.
+Once this is done, just open OpenModelica and import both the Dynawo library (using the package.mo file) and the Modelica library contained in this repository. You are now able to launch the calculations and to play with the cases and model.
+
+## Important remarks and future directions
+
+Please keep in mind that the Modelica code used has been developed and tested using OpenModelica V1.18.
+When using more recent versions of OpenModelica, some adjustments could be needed.
+
+At the moment, small modifications compared to the model available in the official Dynawo library are needed to fully represent the WECC A versions, and adjustments regarding the anti-windup structure have been done. The modified models are available in the AdditionalModels directory of the library. In the long term parts of the modifications will be reintegrated in the offical Dynawo library.
+
+In the long term, it is foreseen to add:
+
+1. Large test cases showing the behaviors of both models on large-scale studies, with focus on their differences.
+1. Extension of the comparison towards more recent versions of the WECC standards
+1. Extension of the comparison to the whole installation (including the plant controller)
