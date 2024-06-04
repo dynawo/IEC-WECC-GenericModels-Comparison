@@ -1,0 +1,9 @@
+ElectricalControlCommon_mod
+ElectricalControlWind_mod
+IqInjectionLogic_mod
+HighVoltageIqManagement
+LowVoltageIpManagement
+LowVoltagePowerLogic
+Parameters_mod
+REGC_A
+WT4BCurrentSource_mod
